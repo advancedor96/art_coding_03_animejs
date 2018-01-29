@@ -35,12 +35,15 @@ body{
 	color: #5E89FB;
 	border: 1px dashed #5E89FB;
 	border-radius: 50%;
-	width: 90px;
-	height: 90px;
+	width: 22vmin;
+	height: 22vmin;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
+	font-size: 5vmin;
 }
 .button.blue:hover{
 	transform: scale(1.05, 1.05);

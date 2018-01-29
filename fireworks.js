@@ -9,11 +9,11 @@ var fireworks = (function() {
   var colors = ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C'];
 
   function setCanvasSize() {
-    canvasEl.width = window.innerWidth * 2;
-    canvasEl.height = window.innerHeight * 2;
+    canvasEl.width = window.innerWidth * 1;
+    canvasEl.height = window.innerHeight * 1;
     canvasEl.style.width = window.innerWidth + 'px';
     canvasEl.style.height = window.innerHeight + 'px';
-    canvasEl.getContext('2d').scale(2, 2);
+    canvasEl.getContext('2d').scale(1, 1);
   }
 
   function updateCoords(e) {

@@ -11,11 +11,13 @@ let myTimeLine = anime.timeline({
 	},
 })
 
-toggleAni = ()=>{
+toggleAni = (obj)=>{
 	if( myTimeLine.paused ){
 		myTimeLine.restart();
+		obj.innerHTML = 'Stop';
 	}else{
 		myTimeLine.pause();
+		obj.innerHTML = 'Start';
 	}
 }
 function createElement(i){
