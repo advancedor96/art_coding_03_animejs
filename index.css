@@ -4,6 +4,8 @@ html, body{
 }
 *{
 	box-sizing: border-box;
+
+	color: #FF1461, #18FF92, #5A87FF, #FBF38C
 }
 body{
 	height: 100vh;
